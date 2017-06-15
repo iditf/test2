@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TablePopulationObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>TestPopRef</ID>
+  <PopulationObjectName>TestPopRef</PopulationObjectName>
+  <TableName>TestRefTbl</TableName>
+  <RootItemID>f_68</RootItemID>
+  <SimpleObject>false</SimpleObject>
+  <InputArguments>
+    <Arg name="INVOICE_ID" id="fi_68.0" dataType="String" index="0" />
+  </InputArguments>
+  <ItemsList>
+    <Item id="f_68" name="rootPaymentFunc" nodeOrder="0" module="Function" mapObjectModule="Function" fileName="rootPaymentFunc.k2function.xml">
+      <InputsList>
+        <Input id="fi_68.0" name="INVOICE_ID" />
+      </InputsList>
+      <OutputsList>
+        <Output id="fo_68.0" name="PATIENT_ID" />
+        <Output id="fo_68.1" name="VISIT_ID" />
+        <Output id="fo_68.2" name="VISIT_DATE" />
+        <Output id="fo_68.3" name="STATUS" />
+        <Output id="fo_68.4" name="PHYSICIAN" />
+        <Output id="fo_68.5" name="DIAGNOSIS" />
+        <Output id="fo_68.6" name="CHECK1" />
+      </OutputsList>
+    </Item>
+  </ItemsList>
+  <LinksList>
+    <Link partId="75" fromNodeOrder="0" fromItemID="f_68" fromColID="fo_68.3" toItemID="tbl_TestRefTbl" toColID="tblCol_670d27076525401f82c3172687b6baea" />
+  </LinksList>
+  <ModeKeyColumnIDs />
+</TablePopulationObject>

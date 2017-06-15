@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnOracle" name="ORA_TEST" type="Oracle" version="2.1.7.0">
+  <Active>true</Active>
+  <DataSource>10.21.1.155</DataSource>
+  <PortNum>1521</PortNum>
+  <DataBase>XE</DataBase>
+  <UserId>ETL_YP_CUST</UserId>
+  <Password>dDTSBEuT2Gi49Ig9EZjH0lw9YK3h2PadJr/wbF3tRbQ=:9S6dJWiLTdj3nmtPtzZd8djUnix82+RacAX8ds0cuyE=</Password>
+  <MaxConnectionsNumber>4</MaxConnectionsNumber>
+  <ConnectionStringClient>Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.21.1.155)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)));User Id=ETL_YP_CUST;Password=[PASSWORD];</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:oracle:thin:@10.21.1.155:1521/XE</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

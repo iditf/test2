@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnSqlite" name="SqliteAT1" type="SQLite" version="2.1.7.0">
+  <Active>false</Active>
+  <DataBase>C:\k2View\K2View Documents\Prop files\prop.AT1.db</DataBase>
+  <MaxConnectionsNumber>60</MaxConnectionsNumber>
+  <ConnectionStringClient>Data Source="C:\k2View\K2View Documents\Prop files\prop.AT1.db";Version=3;</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:sqlite:C:\k2View\K2View Documents\Prop files\prop.AT1.db</ConnectionStringServerSide>
+  <CommandList />
+  <Memory>false</Memory>
+  <AttachedDatabases />
+</DBConn>

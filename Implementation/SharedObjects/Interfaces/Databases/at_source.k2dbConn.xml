@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnCassandra" name="at_source" type="Cassandra" version="2.1.0.6">
+  <Active>true</Active>
+  <DataSource>10.21.1.121</DataSource>
+  <PortNum>9042</PortNum>
+  <DataBase>at_source</DataBase>
+  <UserId>admin</UserId>
+  <Password>BXiwdBQPxxxFevxMo5Y8nyT4+U5l9aL7pzJcqvydWLo=:QEgM5RPquwQcBzyEnHigfPsbuhm/QdPzkIzu3qWWlf0=</Password>
+  <ConnectionStringClient>Contact Points='10.21.1.121';Port=9042;Default Keyspace='at_source';Username='admin';Password='[PASSWORD]';</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:cassandra://10.21.1.121:9042/at_source?consistency=QUORUM&amp;loadbalancing=com.k2view.cdbms.policy.SingleNodePolicy('10.21.1.121')</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

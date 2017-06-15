@@ -1,0 +1,12 @@
+﻿<Graph name="MS_REF_UDAC.query_yp_ref_udac.k2tablePop.bin" lastPartID="57">
+  <TableNode partID="0" name="MS_REF_UDAC" pos="400.6474 30" width="313.352722" />
+  <DBQueryNode partID="3" name="MYSQL_SOURCE" pos="125 179" size="253 120.364563" isRoot="true">
+    <DBQuery>{"Name":"query_yp_ref_udac","ID":"query_query_yp_ref_udac","ConnName":"MYSQL_SOURCE","SQL":"select * from yp_ref_udac","ColumnsList":[{"ID":"queryCol_0","Name":"UDAC_CODE","DataType":"Text","Index":0,"IsInputArgument":true},{"ID":"queryCol_1","Name":"UDAC_VERSION","DataType":"Integer","Index":1,"IsInputArgument":true},{"ID":"queryCol_2","Name":"LAST_VERSION_IND","DataType":"Text","Index":2,"IsInputArgument":true},{"ID":"queryCol_3","Name":"TYPE","DataType":"Text","Index":3,"IsInputArgument":true},{"ID":"queryCol_4","Name":"UDAC_DESC","DataType":"Text","Index":4,"IsInputArgument":true}]}</DBQuery>
+  </DBQueryNode>
+  <Link partID="14" from="0" to="1" pointsArr="378 215.036453 388 215.036453 391.105927 61.0364571 401.105927 61.0364571" fromNodePartID="3" fromNodeColumnName="UDAC_CODE" toNodePartID="0" toNodeColumnName="UDAC_CODE" />
+  <Link partID="15" from="2" to="3" pointsArr="378 227.109375 388 227.109375 391.105927 73.109375 401.105927 73.109375" fromNodePartID="3" fromNodeColumnName="UDAC_VERSION" toNodePartID="0" toNodeColumnName="UDAC_VERSION" />
+  <Link partID="16" from="4" to="5" pointsArr="378 239.182281 388 239.182281 391.105927 85.18229 401.105927 85.18229" fromNodePartID="3" fromNodeColumnName="LAST_VERSION_IND" toNodePartID="0" toNodeColumnName="LAST_VERSION_IND" />
+  <Link partID="17" from="6" to="7" pointsArr="378 251.2552 388 251.2552 391.105927 97.2552 401.105927 97.2552" fromNodePartID="3" fromNodeColumnName="TYPE" toNodePartID="0" toNodeColumnName="TYPE" />
+  <Link partID="18" from="8" to="9" pointsArr="378 263.328125 388 263.328125 391.105927 109.328117 401.105927 109.328117" fromNodePartID="3" fromNodeColumnName="UDAC_DESC" toNodePartID="0" toNodeColumnName="UDAC_DESC" />
+  <Link partID="57" from="4" to="10" pointsArr="378 239.182281 388 239.182281 390.6474 121.401031 400.6474 121.401031" fromNodePartID="3" fromNodeColumnName="LAST_VERSION_IND" toNodePartID="0" toNodeColumnName="NAME" />
+</Graph>

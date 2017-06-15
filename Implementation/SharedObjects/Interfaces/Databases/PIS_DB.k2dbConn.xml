@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnMySql" name="PIS_DB" type="MySQL" version="1.9.4.0">
+  <Active>true</Active>
+  <DataSource>10.21.1.171</DataSource>
+  <PortNum>3306</PortNum>
+  <DataBase>PIS_DB</DataBase>
+  <UserId>PIS_USER</UserId>
+  <Password>A5ThgdnpQ7A1CvT772t3dmrrIw2QCtmBsSU3bERIstw=:v/K1opecrqu5I6B9lwht75n7y0KVztF1QzQaaYFRAu0=</Password>
+  <ConnectionStringClient>Provider=MySQL;server='10.21.1.171';user='PIS_USER';database='PIS_DB';password='[PASSWORD]';port=3306;</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:mysql://10.21.1.171:3306/PIS_DB?retainStatementAfterResultSetClose=true&amp;autoReconnect=true</ConnectionStringServerSide>
+  <SchemaFilter>PIS_DB</SchemaFilter>
+  <CommandList />
+</DBConn>

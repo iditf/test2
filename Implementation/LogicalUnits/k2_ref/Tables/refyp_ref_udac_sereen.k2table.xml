@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>refyp_ref_udac_sereen</Name>
+  <ID>tbl_refyp_ref_udac_sereen</ID>
+  <LazyDataUpdate performEvery="1.00:00:00" />
+  <Columns>
+    <Column name="udac_code" id="tblCol_07ab25a16f2e475687e6506fe811e7ec" index="0" datatype="Text" />
+    <Column name="udac_version" id="tblCol_5a777e54afa44bb8834f5fb38a2e1a36" index="1" datatype="Real" />
+    <Column name="last_version_ind" id="tblCol_7a38a46fce154a7ead5bbb213019659a" index="2" datatype="Text" />
+    <Column name="type" id="tblCol_f2be533fe75347269f5c9c12be19cec4" index="3" datatype="Text" />
+    <Column name="udac_desc" id="tblCol_773ed89cfe7b4348b7fda31b5086cd41" index="4" datatype="Text" />
+  </Columns>
+  <IndexesList />
+  <EnrichmentList />
+</TableObject>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TableObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>TestRefTbl</Name>
+  <ID>tbl_TestRefTbl</ID>
+  <LazyDataUpdate performEvery="1.00:00:00" />
+  <Columns>
+    <Column name="num1" id="tblCol_670d27076525401f82c3172687b6baea" index="0" datatype="text" />
+    <Column name="num2" id="tblCol_78375d7108d4428795612d9538fba087" index="1" datatype="text" />
+    <Column name="num3" id="tblCol_efb8ec6f2c88458fb2183074f6753e7d" index="2" datatype="text" />
+    <Column name="num4" id="tblCol_b231dd4c44704fe186ad06638254a62c" index="3" datatype="text" />
+    <Column name="num5" id="tblCol_bcfad689d15745feb7028b964cfe70ce" index="4" datatype="text" />
+  </Columns>
+  <IndexesList>
+    <Index id="1" columnsIdsList="tblCol_bcfad689d15745feb7028b964cfe70ce" />
+  </IndexesList>
+  <EnrichmentList />
+</TableObject>

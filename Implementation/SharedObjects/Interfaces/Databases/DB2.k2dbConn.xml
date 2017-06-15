@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DB2" type="DB2" version="1.9.4.0">
+  <Active>true</Active>
+  <DataSource>10.21.1.179</DataSource>
+  <PortNum>50000</PortNum>
+  <DataBase>K2VTEST</DataBase>
+  <UserId>db2inst1</UserId>
+  <Password>V+Y1IVKY3Wq5PiRHw4dredpDVtWzkwfvinb5hF4vTNo=:HhHW6O3pw4LlPFfTIy6YI4ahWkXI0bZbb+rc2ASSiWU=</Password>
+  <ConnectionStringClient>Server=10.21.1.179:50000;Database=K2VTEST;UID='db2inst1';PWD='[PASSWORD]';</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:db2://10.21.1.179:50000/K2VTEST</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnCassandra" name="dbCassandra" type="Cassandra" version="2.1.1.1">
+  <Active>true</Active>
+  <DataSource>g1nldk2vd002.dev.globalpay.com</DataSource>
+  <PortNum>9042</PortNum>
+  <UserId>admin</UserId>
+  <Password>5lD7XDaneuoIAzL3kieB/kiOQTk8ev8OdpNLAzKFcyQ=:caLC8z9CmjT26oxCFdEvv6tqW9MVBBz5c/hM6enJlro=</Password>
+  <ConnectionStringClient>Contact Points='g1nldk2vd002.dev.globalpay.com';Port=9042;Default Keyspace='';Username='admin';Password='[PASSWORD]';</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:cassandra://g1nldk2vd002.dev.globalpay.com:9042?consistency=QUORUM&amp;loadbalancing=com.k2view.cdbms.policy.SingleNodePolicy('g1nldk2vd002.dev.globalpay.com')</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

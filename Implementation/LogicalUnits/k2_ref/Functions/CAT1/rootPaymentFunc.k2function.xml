@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KFunction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="4.0.0.4">
+  <Name>rootPaymentFunc</Name>
+  <ID>CAT1.rootPaymentFunc</ID>
+  <Category>CAT1</Category>
+  <FunctionLevel>Project</FunctionLevel>
+  <FunctionType>RegularFunction</FunctionType>
+  <FunctionType2>RootFunction</FunctionType2>
+  <RegisterAsLuDbFunction>false</RegisterAsLuDbFunction>
+  <SaveToDLUR>false</SaveToDLUR>
+  <ApiFunction>false</ApiFunction>
+  <DecisionFunction>false</DecisionFunction>
+  <RequiresLuReference>false</RequiresLuReference>
+  <Desc />
+  <Auther name="" id="" />
+  <Language>Java</Language>
+  <FunctionBody>String sql = "SELECT  PATIENT_ID, VISIT_ID, VISIT_DATE, STATUS, PHYSICIAN,DIAGNOSIS  FROM VISIT";
+
+Object[] valuesArr = null;
+
+ResultSetWrapper rs = DBQuery("HIS_DB", sql, valuesArr);
+
+for(Object[] row : rs) {
+    yield(row);
+}
+
+rs.closeStmt();</FunctionBody>
+  <IsSyntaxValid>true</IsSyntaxValid>
+  <IsRootFunction>true</IsRootFunction>
+  <InputParams>
+    <Input name="INVOICE_ID" id="fi.CAT1.rootPaymentFunc.0" index="0" dataType="String" />
+  </InputParams>
+  <OutputParams>
+    <Output name="PATIENT_ID" id="fo.CAT1.rootPaymentFunc.0" index="0" dataType="String" />
+    <Output name="VISIT_ID" id="fo.CAT1.rootPaymentFunc.1" index="1" dataType="String" />
+    <Output name="VISIT_DATE" id="fo.CAT1.rootPaymentFunc.2" index="2" dataType="String" />
+    <Output name="STATUS" id="fo.CAT1.rootPaymentFunc.3" index="3" dataType="String" />
+    <Output name="PHYSICIAN" id="fo.CAT1.rootPaymentFunc.4" index="4" dataType="String" />
+    <Output name="DIAGNOSIS" id="fo.CAT1.rootPaymentFunc.5" index="5" dataType="String" />
+    <Output name="CHECK1" id="fo.CAT1.rootPaymentFunc.6" index="6" dataType="String" />
+  </OutputParams>
+</KFunction>

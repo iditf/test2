@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TablePopulationObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>query_yp_cust_yp_ref_udac_sereen</ID>
+  <PopulationObjectName>query_yp_cust_yp_ref_udac_sereen</PopulationObjectName>
+  <TableName>refyp_ref_udac_sereen</TableName>
+  <RootItemID>query_query_yp_cust_yp_ref_udac_sereen</RootItemID>
+  <SimpleObject>true</SimpleObject>
+  <InputArguments>
+    <Arg name="udac_code" id="queryCol_0" dataType="Text" index="0" />
+    <Arg name="udac_version" id="queryCol_1" dataType="Real" index="1" />
+    <Arg name="last_version_ind" id="queryCol_2" dataType="Text" index="2" />
+    <Arg name="type" id="queryCol_3" dataType="Text" index="3" />
+    <Arg name="udac_desc" id="queryCol_4" dataType="Text" index="4" />
+  </InputArguments>
+  <ItemsList>
+    <Item xsi:type="DBQueryDataSave" id="query_query_yp_cust_yp_ref_udac_sereen" name="query_yp_cust_yp_ref_udac_sereen" nodeOrder="0" module="DBQuery" mapObjectModule="DBQuery" connName="PG_SOURCE">
+      <OutputsList>
+        <Output xsi:type="DBQueryDataSaveColumn" id="queryCol_0" name="udac_code" dataType="Text" index="0" />
+        <Output xsi:type="DBQueryDataSaveColumn" id="queryCol_1" name="udac_version" dataType="Real" index="1" />
+        <Output xsi:type="DBQueryDataSaveColumn" id="queryCol_2" name="last_version_ind" dataType="Text" index="2" />
+        <Output xsi:type="DBQueryDataSaveColumn" id="queryCol_3" name="type" dataType="Text" index="3" />
+        <Output xsi:type="DBQueryDataSaveColumn" id="queryCol_4" name="udac_desc" dataType="Text" index="4" />
+      </OutputsList>
+      <SQL><![CDATA[SELECT * FROM yp_cust.yp_ref_udac_sereen]]></SQL>
+    </Item>
+  </ItemsList>
+  <LinksList>
+    <Link partId="14" fromNodeOrder="0" fromItemID="query_query_yp_cust_yp_ref_udac_sereen" fromColID="queryCol_0" toItemID="tbl_refyp_ref_udac_sereen" toColID="tblCol_07ab25a16f2e475687e6506fe811e7ec" />
+    <Link partId="15" fromNodeOrder="0" fromItemID="query_query_yp_cust_yp_ref_udac_sereen" fromColID="queryCol_1" toItemID="tbl_refyp_ref_udac_sereen" toColID="tblCol_5a777e54afa44bb8834f5fb38a2e1a36" />
+    <Link partId="16" fromNodeOrder="0" fromItemID="query_query_yp_cust_yp_ref_udac_sereen" fromColID="queryCol_2" toItemID="tbl_refyp_ref_udac_sereen" toColID="tblCol_7a38a46fce154a7ead5bbb213019659a" />
+    <Link partId="17" fromNodeOrder="0" fromItemID="query_query_yp_cust_yp_ref_udac_sereen" fromColID="queryCol_3" toItemID="tbl_refyp_ref_udac_sereen" toColID="tblCol_f2be533fe75347269f5c9c12be19cec4" />
+    <Link partId="18" fromNodeOrder="0" fromItemID="query_query_yp_cust_yp_ref_udac_sereen" fromColID="queryCol_4" toItemID="tbl_refyp_ref_udac_sereen" toColID="tblCol_773ed89cfe7b4348b7fda31b5086cd41" />
+  </LinksList>
+  <ModeKeyColumnIDs />
+</TablePopulationObject>

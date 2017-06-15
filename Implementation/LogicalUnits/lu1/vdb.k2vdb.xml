@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.3.0.4">
+  <Name>vdb</Name>
+  <RootView>YP_CUSTOMER_FAB</RootView>
+  <LuLazyDataUpdate syncMethod="None" performEvery="1.00:00:00" />
+  <Tables>
+    <Table>YP_CUSTOMER_FAB</Table>
+  </Tables>
+  <TablesProperties>
+    <TableProperties name="YP_CUSTOMER_FAB">
+      <Populations>
+        <Population id="query_YP_CUSTOMER_FAB" name="query_YP_CUSTOMER_FAB" order="1" disabled="false" enrichment="false" />
+      </Populations>
+    </TableProperties>
+  </TablesProperties>
+  <EnrichmentsOrderList />
+  <ReferencesList>
+    <Item active="false" name="FUN_REF_UDAC" />
+    <Item active="false" name="MS_REF_UDAC" />
+    <Item active="false" name="ref_S_INVOICE" />
+    <Item active="false" name="REF_SERVICE_AGREEMENT" />
+    <Item active="false" name="REF_YP_PRODUCT_TRN" />
+    <Item active="false" name="referencePAYMENT" />
+    <Item active="false" name="referenceTblVISIT" />
+    <Item active="false" name="refTblyp_ref_udac_sereen" />
+    <Item active="false" name="refyp_ref_udac_sereen" />
+    <Item active="false" name="test_YP_REF_UDAC" />
+    <Item active="false" name="TestRefTbl" />
+  </ReferencesList>
+  <Relations />
+  <DatabaseRelations />
+  <PreVCsSqlScript />
+  <PostVCsSqlScript />
+  <Indexes />
+  <LudbProperties />
+</VirtualDB>

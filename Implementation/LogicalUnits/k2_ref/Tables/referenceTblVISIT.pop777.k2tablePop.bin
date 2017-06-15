@@ -1,0 +1,17 @@
+﻿<Graph name="referenceTblVISIT.pop777.k2tablePop.bin" lastPartID="73">
+  <TableNode partID="0" name="referenceTblVISIT" pos="404 30" width="309.3241" />
+  <FunctionMapNode id="0" L0="1" R0="2" R1="3" R2="4" R3="5" R4="6" R5="7" R6="8" partID="18" topLabel="rootPaymentFunc (18)" pos="56.03442 77.99997" size="174.375046 109.601563" isRoot="true">
+    <KFunction>{"Name":"rootPaymentFunc","ID":"f_18","Category":"CAT1","Version":"4.0.0.4","FunctionLevel":0,"FunctionType":0,"FunctionType2":1,"RegisterAsLuDbFunction":false,"SaveToDLUR":false,"ApiFunction":false,"DecisionFunction":false,"RequiresLuReference":false,"Desc":"","Auther":{"Name":"","ID":""},"Language":1,"FunctionBody":"String sql = \"SELECT  PATIENT_ID, VISIT_ID, VISIT_DATE, STATUS, PHYSICIAN,DIAGNOSIS  FROM VISIT\";\n\nObject[] valuesArr = null;\n\nResultSetWrapper rs = DBQuery(\"HIS_DB\", sql, valuesArr);\n\nfor(Object[] row : rs) {\n    yield(row);\n}\n\nrs.closeStmt();","IsSyntaxValid":true,"IsRootFunction":true,"inputParams":[{"Name":"INVOICE_ID","ID":"fi_18.0","Index":0,"DataType":"String"}],"outputParams":[{"Name":"PATIENT_ID","ID":"fo_18.0","Index":0,"DataType":"String"},{"Name":"VISIT_ID","ID":"fo_18.1","Index":1,"DataType":"String"},{"Name":"VISIT_DATE","ID":"fo_18.2","Index":2,"DataType":"String"},{"Name":"STATUS","ID":"fo_18.3","Index":3,"DataType":"String"},{"Name":"PHYSICIAN","ID":"fo_18.4","Index":4,"DataType":"String"},{"Name":"DIAGNOSIS","ID":"fo_18.5","Index":5,"DataType":"String"},{"Name":"CHECK1","ID":"fo_18.6","Index":6,"DataType":"String"}]}</KFunction>
+  </FunctionMapNode>
+  <ConstantMapNode partID="52" topLabel="C1" pos="162.785355 289" size="27.796875 45.091156">
+    <KDataValue>{"ID":"c.52","DataValue":"888"}</KDataValue>
+  </ConstantMapNode>
+  <Link partID="27" from="2" to="9" pointsArr="230.40947 99.12757 240.40947 99.12757 394 61.0364532 404 61.0364532" fromNodePartID="18" fromNodeColumnName="PATIENT_ID" toNodePartID="0" toNodeColumnName="PATIENT_ID" />
+  <Link partID="28" from="3" to="10" pointsArr="230.40947 111.200485 240.40947 111.200485 394 73.10937 404 73.10937" fromNodePartID="18" fromNodeColumnName="VISIT_ID" toNodePartID="0" toNodeColumnName="VISIT_ID" />
+  <Link partID="29" from="4" to="11" pointsArr="230.40947 123.2734 240.40947 123.2734 394 85.18228 404 85.18228" fromNodePartID="18" fromNodeColumnName="VISIT_DATE" toNodePartID="0" toNodeColumnName="VISIT_DATE" />
+  <Link partID="30" from="5" to="12" pointsArr="230.40947 135.346313 240.40947 135.346313 394 97.2552 404 97.2552" fromNodePartID="18" fromNodeColumnName="STATUS" toNodePartID="0" toNodeColumnName="STATUS" />
+  <Link partID="31" from="6" to="13" pointsArr="230.40947 147.41922 240.40947 147.41922 394 109.32811 404 109.32811" fromNodePartID="18" fromNodeColumnName="PHYSICIAN" toNodePartID="0" toNodeColumnName="PHYSICIAN" />
+  <Link partID="32" from="7" to="14" pointsArr="230.40947 159.492142 240.40947 159.492142 394 121.401031 404 121.401031" fromNodePartID="18" fromNodeColumnName="DIAGNOSIS" toNodePartID="0" toNodeColumnName="DIAGNOSIS" />
+  <Link partID="33" from="8" to="15" pointsArr="230.40947 171.565063 240.40947 171.565063 394 133.473953 404 133.473953" fromNodePartID="18" fromNodeColumnName="CHECK1" toNodePartID="0" toNodeColumnName="CHECK1" />
+  <Link partID="54" from="16" to="17" pointsArr="190.58223 314.091156 200.58223 314.091156 394 145.546875 404 145.546875" fromNodePartID="52" fromNodeColumnName="888" toNodePartID="0" toNodeColumnName="test1" />
+</Graph>

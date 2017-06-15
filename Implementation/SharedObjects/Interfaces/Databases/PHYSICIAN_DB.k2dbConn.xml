@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnMySql" name="PHYSICIAN_DB" type="MySQL" version="1.9.4.0">
+  <Active>true</Active>
+  <DataSource>10.21.1.171</DataSource>
+  <PortNum>3306</PortNum>
+  <DataBase>PHYSICIAN_DB</DataBase>
+  <UserId>PHYSICIAN_USER</UserId>
+  <Password>OqEgHV1A23e6PjsP4KmJIJPYU5FL7XPhUXTLA0PlDjM=:+GaEIK8u5ngBVYAbjo8y/+EoQG/PqoGSl3Gl/L5hwZU=</Password>
+  <ConnectionStringClient>Provider=MySQL;server='10.21.1.171';user='PHYSICIAN_USER';database='PHYSICIAN_DB';password='[PASSWORD]';port=3306;</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:mysql://10.21.1.171:3306/PHYSICIAN_DB?retainStatementAfterResultSetClose=true&amp;autoReconnect=true</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

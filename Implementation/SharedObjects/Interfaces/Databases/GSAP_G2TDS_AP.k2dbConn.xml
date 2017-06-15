@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnOracle" name="GSAP_G2TDS_AP" type="Oracle" version="1.8.0.10">
+  <Active>false</Active>
+  <DataSource>10.20.84.42</DataSource>
+  <PortNum>1523</PortNum>
+  <DataBase>GDWDBD</DataBase>
+  <UserId>tds</UserId>
+  <Password>/jOE0NWffuzpjlRwDusfwBwswrFtoVriDSDrAVlsD2A=:uPIOTsMgnqV6LFC/OatBMkoTWi67XhRHuF8/YAoOb3I=</Password>
+  <ConnectionStringClient>Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.20.84.42)(PORT=1523)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=GDWDBD)));User Id=tds;Password=[PASSWORD];</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:oracle:thin:@10.20.84.42:1523/GDWDBD</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TablePopulationObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>paymentPopulation</ID>
+  <PopulationObjectName>paymentPopulation</PopulationObjectName>
+  <TableName>referencePAYMENT</TableName>
+  <RootItemID>f_8</RootItemID>
+  <SimpleObject>false</SimpleObject>
+  <InputArguments>
+    <Arg name="INVOICE_ID" id="fi_8.0" dataType="String" index="0" />
+  </InputArguments>
+  <ItemsList>
+    <Item id="f_8" name="rootPaymentFunc" nodeOrder="0" module="Function" mapObjectModule="Function" fileName="rootPaymentFunc.k2function.xml">
+      <InputsList>
+        <Input id="fi_8.0" name="INVOICE_ID" />
+      </InputsList>
+      <OutputsList>
+        <Output id="fo_8.0" name="INVOICE_ID" />
+        <Output id="fo_8.1" name="PAYMENT_ID" />
+        <Output id="fo_8.2" name="ISSUED_DATE" />
+        <Output id="fo_8.3" name="STATUS" />
+        <Output id="fo_8.4" name="AMOUNT" />
+      </OutputsList>
+    </Item>
+  </ItemsList>
+  <LinksList>
+    <Link partId="16" fromNodeOrder="0" fromItemID="f_8" fromColID="fo_8.1" toItemID="tbl_referencePAYMENT" toColID="tblCol_eab414e3297248128c1c7e3dde6eb0d4" />
+    <Link partId="15" fromNodeOrder="0" fromItemID="f_8" fromColID="fo_8.0" toItemID="tbl_referencePAYMENT" toColID="tblCol_a9299e564fe3440796a7be362b7ffb5e" />
+    <Link partId="17" fromNodeOrder="0" fromItemID="f_8" fromColID="fo_8.2" toItemID="tbl_referencePAYMENT" toColID="tblCol_fbbc8641e9434e5ca5fdf47c32e76613" />
+    <Link partId="18" fromNodeOrder="0" fromItemID="f_8" fromColID="fo_8.3" toItemID="tbl_referencePAYMENT" toColID="tblCol_6fb8cee2a6b24fba92df3a6f813a11d5" />
+    <Link partId="19" fromNodeOrder="0" fromItemID="f_8" fromColID="fo_8.4" toItemID="tbl_referencePAYMENT" toColID="tblCol_b6e04f720b804c489aeaac827bc96edc" />
+  </LinksList>
+  <ModeKeyColumnIDs />
+</TablePopulationObject>

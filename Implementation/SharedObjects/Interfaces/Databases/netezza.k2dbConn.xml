@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnNetezza" name="netezza" type="Netezza" version="2.1.1.1">
+  <Active>true</Active>
+  <DataSource>10.21.1.202</DataSource>
+  <PortNum>5480</PortNum>
+  <DataBase>NETEZZA</DataBase>
+  <UserId>admin</UserId>
+  <Password>C+MjhxDh8eiUkD5p17U6QUMN0IVLjb7VPMXJ+sucD+w=:AYxwbnau9PLCo2/S2su97TA3mGU9U6+kemWEy4Dz/Z0=</Password>
+  <ConnectionStringClient>Driver={NetezzaSQL};Servername=10.21.1.202;Port=5480;Database=NETEZZA;Username=admin;Password=[PASSWORD];</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:netezza://10.21.1.202:5480/NETEZZA</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

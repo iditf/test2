@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnNetezza" name="NZ_GP_DA_DATA" type="Netezza" version="1.8.0.10">
+  <Active>true</Active>
+  <DataSource>10.125.240.80</DataSource>
+  <PortNum>5480</PortNum>
+  <DataBase>GP_DA_DATA</DataBase>
+  <UserId>K2VUSER</UserId>
+  <Password>wJGJUNFb+aKCj7aoPAD7Sibk8w8s6Qo1L/9rLhhdUZA=:mYvldHd6bNJkQ19mBBkCPqsxUg/j4hxSwMy4brm0cbE=</Password>
+  <ConnectionStringClient>Driver={NetezzaSQL};Servername=10.125.240.80;Port=5480;Database=GP_DA_DATA;Username=K2VUSER;Password=[PASSWORD];</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:netezza://10.125.240.80:5480/GP_DA_DATA</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnOracle" name="GSAP_G2_US" type="Oracle" version="1.8.0.10">
+  <Active>true</Active>
+  <DataSource>10.20.84.41</DataSource>
+  <PortNum>1521</PortNum>
+  <DataBase>TDEV57</DataBase>
+  <UserId>cmf</UserId>
+  <Password>gIOtFU2+yLI9+0RZ3cp661ltnyMz5gY7WbpHAdct31w=:YudFdWm7tDDvRUSFuJC5OKscgbrWZStb5shA5SQ/XqA=</Password>
+  <ConnectionStringClient>Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.20.84.41)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=TDEV57)));User Id=cmf;Password=[PASSWORD];</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:oracle:thin:@10.20.84.41:1521/TDEV57</ConnectionStringServerSide>
+  <SchemaFilter>CMF</SchemaFilter>
+  <CommandList />
+</DBConn>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnOracle" name="GSAP_G2_AP" type="Oracle" version="1.8.0.10">
+  <Active>true</Active>
+  <DataSource>10.20.84.42</DataSource>
+  <PortNum>1523</PortNum>
+  <DataBase>GDWDBD</DataBase>
+  <UserId>cmf</UserId>
+  <Password>v9Aph1ARGoiUq+dNFa8cqpm1C1S+b+0Z+jywQMmAmYI=:YRNVVFjFS3hbSZDUu6snz5ijO7+oetWKfaJ+YmJbzss=</Password>
+  <ConnectionStringClient>Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.20.84.42)(PORT=1523)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=GDWDBD)));User Id=cmf;Password=[PASSWORD];</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:oracle:thin:@10.20.84.42:1523/GDWDBD</ConnectionStringServerSide>
+  <SchemaFilter>CMF</SchemaFilter>
+  <CommandList />
+</DBConn>

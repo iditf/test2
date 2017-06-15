@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnNetezza" name="NZ_ER_QA0_HUB" type="Netezza" version="1.9.2.0">
+  <Active>false</Active>
+  <DataSource>10.125.240.80</DataSource>
+  <PortNum>5480</PortNum>
+  <DataBase>ER_QA0_HUB</DataBase>
+  <UserId>admin</UserId>
+  <Password>ylW7kSU0MUp40m1r7oe4VyCL+/tzXoL3X1W8bNVhwLY=:CR5mFWz5Qxbj+8z9b0LV0tI01g9Dew2GH8IT59QkVL0=</Password>
+  <ConnectionStringClient>Driver={NetezzaSQL};Servername=10.125.240.80;Port=5480;Database=ER_QA0_HUB;Username=admin;Password=[PASSWORD];</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:netezza://10.125.240.80:5480/ER_QA0_HUB</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

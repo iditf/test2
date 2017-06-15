@@ -1,0 +1,11 @@
+﻿<Graph name="refyp_ref_udac_sereen.query_yp_cust_yp_ref_udac_sereen.k2tablePop.bin" lastPartID="18">
+  <TableNode partID="0" name="refyp_ref_udac_sereen" pos="358.9202 18.7812538" width="309.324158" />
+  <DBQueryNode partID="8" name="PG_SOURCE" pos="9.999985 14.8177109" size="303.9202 120.364578" isRoot="true">
+    <DBQuery>{"Name":"query_yp_cust_yp_ref_udac_sereen","ID":"query_query_yp_cust_yp_ref_udac_sereen","ConnName":"PG_SOURCE","SQL":"SELECT * FROM yp_cust.yp_ref_udac_sereen","ColumnsList":[{"ID":"queryCol_0","Name":"udac_code","DataType":"Text","Index":0,"IsInputArgument":true},{"ID":"queryCol_1","Name":"udac_version","DataType":"Real","Index":1,"IsInputArgument":true},{"ID":"queryCol_2","Name":"last_version_ind","DataType":"Text","Index":2,"IsInputArgument":true},{"ID":"queryCol_3","Name":"type","DataType":"Text","Index":3,"IsInputArgument":true},{"ID":"queryCol_4","Name":"udac_desc","DataType":"Text","Index":4,"IsInputArgument":true}]}</DBQuery>
+  </DBQueryNode>
+  <Link partID="14" from="0" to="1" pointsArr="313.920166 50.85417 323.920166 50.85417 326.420166 25 346.420166 25 348.9202 49.81771 358.9202 49.81771" fromNodePartID="8" fromNodeColumnName="udac_code" toNodePartID="0" toNodeColumnName="udac_code" />
+  <Link partID="15" from="2" to="3" pointsArr="313.920166 62.9270859 323.920166 62.9270859 326.420166 50 346.420166 50 348.9202 61.89063 358.9202 61.89063" fromNodePartID="8" fromNodeColumnName="udac_version" toNodePartID="0" toNodeColumnName="udac_version" />
+  <Link partID="16" from="4" to="5" pointsArr="313.920166 75 323.920166 75 326.420166 75 346.420166 75 348.9202 73.96355 358.9202 73.96355" fromNodePartID="8" fromNodeColumnName="last_version_ind" toNodePartID="0" toNodeColumnName="last_version_ind" />
+  <Link partID="17" from="6" to="7" pointsArr="313.920166 87.0729141 323.920166 87.0729141 326.420166 100 346.420166 100 348.9202 86.03645 358.9202 86.03645" fromNodePartID="8" fromNodeColumnName="type" toNodePartID="0" toNodeColumnName="type" />
+  <Link partID="18" from="8" to="9" pointsArr="313.920166 99.14583 323.920166 99.14583 326.420166 125 346.420166 125 348.9202 98.109375 358.9202 98.109375" fromNodePartID="8" fromNodeColumnName="udac_desc" toNodePartID="0" toNodeColumnName="udac_desc" />
+</Graph>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnSqlite" name="SQLite" type="SQLite" version="1.8.0.1">
+  <Active>false</Active>
+  <DataBase>C:\k2View\Exports\MS.104010182.1453631398331</DataBase>
+  <ConnectionStringClient>Data Source="C:\k2View\Exports\MS.104010182.1453631398331";Version=3;</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:sqlite:C:\k2View\Exports\MS.104010182.1453631398331</ConnectionStringServerSide>
+  <CommandList />
+  <Memory>false</Memory>
+  <AttachedDatabases />
+</DBConn>

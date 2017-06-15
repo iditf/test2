@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnSqlServer" name="MSSQL_MOS_AP" type="SqlServer" version="1.8.0.10">
+  <Active>false</Active>
+  <DataSource>10.20.100.226</DataSource>
+  <PortNum>1433</PortNum>
+  <DataBase>aa</DataBase>
+  <UserId>SQL_K2VDBREAD</UserId>
+  <Password>8reKkp/bHbBsjK3WEGydD4Vd1XIMZdRdI1ctbBtmUco=:7XBq2gLQ+XozeiBL+G8H5wvTuQEUe6Xsvnybc0gr4Xc=</Password>
+  <ConnectionStringClient>Server=10.20.100.226,1433;Network Library=DBMSSOCN;Database='aa';UID='SQL_K2VDBREAD';Password='[PASSWORD]';Trusted_Connection=False;</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:sqlserver://10.20.100.226:1433;database=aa</ConnectionStringServerSide>
+  <CommandList />
+</DBConn>

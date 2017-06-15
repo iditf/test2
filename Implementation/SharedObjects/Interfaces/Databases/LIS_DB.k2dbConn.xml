@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnPostgreSQL" name="LIS_DB" type="PostgreSQL" version="2.1.7.0">
+  <Active>true</Active>
+  <DataSource>10.21.1.171</DataSource>
+  <PortNum>5432</PortNum>
+  <DataBase>LIS</DataBase>
+  <UserId>postgres</UserId>
+  <Password>MpFMAvvBVxtiFmFzNeeuyGawyEtQX2Hz+SBeIDQnJyE=:IPAFOKF2Wc4bqTYx+xPM6P+6kdh2btMujgIwrRVIcYo=</Password>
+  <MaxConnectionsNumber>60</MaxConnectionsNumber>
+  <ConnectionStringClient>Server='10.21.1.171';Port=5432;Database='LIS';User Id='postgres';Password='[PASSWORD]';</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:postgresql://10.21.1.171:5432/LIS?stringtype=unspecified</ConnectionStringServerSide>
+  <CommandList />
+  <ProviderType>Npgsql</ProviderType>
+</DBConn>

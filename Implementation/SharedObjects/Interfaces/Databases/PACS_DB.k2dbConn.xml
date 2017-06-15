@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBConn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DBConnPostgreSQL" name="PACS_DB" type="PostgreSQL" version="1.9.4.0">
+  <Active>true</Active>
+  <DataSource>10.21.1.171</DataSource>
+  <PortNum>5432</PortNum>
+  <DataBase>PACS</DataBase>
+  <UserId>postgres</UserId>
+  <Password>Arx0evKLOfBYg+5Mp3KLinJePwKiKv7jPb7s61ItXIY=:o7VrZKk6Fg7D9B6mcst7+nehChJHjxo3xfisbNmN8h0=</Password>
+  <ConnectionStringClient>Server='10.21.1.171';Port=5432;Database='PACS';User Id='postgres';Password='[PASSWORD]';</ConnectionStringClient>
+  <ConnectionStringServerSide>jdbc:postgresql://10.21.1.171:5432/PACS?stringtype=unspecified</ConnectionStringServerSide>
+  <CommandList />
+  <ProviderType>Npgsql</ProviderType>
+</DBConn>
