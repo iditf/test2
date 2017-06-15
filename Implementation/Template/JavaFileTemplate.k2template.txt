@@ -1,4 +1,4 @@
-﻿package k2Studio.#luName#;
+package k2Studio.#luName#;
 
 import java.util.*;
 import java.sql.*;
