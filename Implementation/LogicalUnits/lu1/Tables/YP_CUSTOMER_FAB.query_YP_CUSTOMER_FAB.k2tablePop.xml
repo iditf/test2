@@ -13,7 +13,6 @@
   </InputArguments>
   <ItemsList>
     <Item xsi:type="DBQueryDataSave" id="query_query_YP_CUSTOMER_FAB" name="query_YP_CUSTOMER_FAB" nodeOrder="0" module="DBQuery" mapObjectModule="DBQuery" connName="ORA_TEST">
-      <InputsList />
       <OutputsList>
         <Output xsi:type="DBQueryDataSaveColumn" id="queryCol_0" name="CUSTOMER_ID" dataType="Integer" index="0" />
         <Output xsi:type="DBQueryDataSaveColumn" id="queryCol_1" name="CUSTOMER_TYPE" dataType="Text" index="1" />

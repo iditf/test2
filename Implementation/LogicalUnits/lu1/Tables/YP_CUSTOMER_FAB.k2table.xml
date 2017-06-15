@@ -60,6 +60,7 @@
     <Column name="PROSPECT_SOURCE_DATE" id="tblCol_46b2c5db54f14c3eb2e295b536568aeb" index="50" datatype="Text" />
     <Column name="CONVERSION_IND" id="tblCol_7df2667b120b4682a8be5bf9de544424" index="51" datatype="Text" />
     <Column name="IDIT_RAW" id="tblCol_bc6ccc7de64f446fbc1481a26b451e56" index="52" datatype="BLOB" />
+    <Column name="status1" id="tblCol_20e233c234b34498b2399f21ea9686ff" index="53" datatype="text" />
   </Columns>
   <IndexesList />
   <EnrichmentList />
