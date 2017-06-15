@@ -7,7 +7,7 @@
   <LazyDataUpdate syncMethod="Inherited" performEvery="1.00:00:00">
     <TruncateBeforeSync>false</TruncateBeforeSync>
   </LazyDataUpdate>
-  <SimpleObject>true</SimpleObject>
+  <SimpleObject>false</SimpleObject>
   <InputArguments>
     <Arg name="CUSTOMER_ID" id="queryCol_0" dataType="Integer" index="0" />
   </InputArguments>
@@ -70,6 +70,12 @@
       </OutputsList>
       <SQL><![CDATA[SELECT * FROM YP_CUSTOMER_FAB]]></SQL>
     </Item>
+    <Item id="f_489" name="k2_currentDate" nodeOrder="0" module="Function" mapObjectModule="Function" fileName="k2_currentDate.k2function.xml">
+      <InputsList />
+      <OutputsList>
+        <Output id="fo_489.0" name="current_date" />
+      </OutputsList>
+    </Item>
   </ItemsList>
   <LinksList>
     <Link partId="110" fromNodeOrder="0" fromItemID="query_query_YP_CUSTOMER_FAB" fromColID="queryCol_0" toItemID="tbl_YP_CUSTOMER_FAB" toColID="tblCol_8aa325dee1ac47f284a404431958c480" />
@@ -125,6 +131,7 @@
     <Link partId="160" fromNodeOrder="0" fromItemID="query_query_YP_CUSTOMER_FAB" fromColID="queryCol_50" toItemID="tbl_YP_CUSTOMER_FAB" toColID="tblCol_46b2c5db54f14c3eb2e295b536568aeb" />
     <Link partId="161" fromNodeOrder="0" fromItemID="query_query_YP_CUSTOMER_FAB" fromColID="queryCol_51" toItemID="tbl_YP_CUSTOMER_FAB" toColID="tblCol_7df2667b120b4682a8be5bf9de544424" />
     <Link partId="162" fromNodeOrder="0" fromItemID="query_query_YP_CUSTOMER_FAB" fromColID="queryCol_52" toItemID="tbl_YP_CUSTOMER_FAB" toColID="tblCol_bc6ccc7de64f446fbc1481a26b451e56" />
+    <Link partId="491" fromNodeOrder="0" fromItemID="f_489" fromColID="fo_489.0" toItemID="tbl_YP_CUSTOMER_FAB" toColID="tblCol_20e233c234b34498b2399f21ea9686ff" />
   </LinksList>
   <ModeKeyColumnIDs />
 </TablePopulationObject>
