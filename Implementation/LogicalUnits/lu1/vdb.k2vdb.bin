@@ -1,9 +1,5 @@
-﻿<Graph version="3.3.0.4" name="vdb.k2vdb.bin" lastPartID="690">
-  <Node id="0" partID="0" name="YP_CUSTOMER_FAB" isRootView="true" pos="92 117" size="257 138.546875" listGroupSize="250 100" viewType="Table">
+﻿<Graph version="3.3.0.4" name="vdb.k2vdb.bin" lastPartID="1054">
+  <Node id="0" partID="0" name="YP_CUSTOMER_FAB" isRootView="true" pos="92 117" size="257 138.546844" listGroupSize="250 100" viewType="Table">
     <TableProperties>{"TableName":"YP_CUSTOMER_FAB","TablePopulationPropertiesList":[{"ID":"query_YP_CUSTOMER_FAB","Name":"query_YP_CUSTOMER_FAB","Order":1,"Disabled":false,"IsEnrichment":false}]}</TableProperties>
   </Node>
-  <Node id="1" partID="433" name="YP_ITEM_FAB" isRootView="false" pos="483 143" size="257 138.54686" listGroupSize="250 100" viewType="Table">
-    <TableProperties>{"TableName":"YP_ITEM_FAB","TablePopulationPropertiesList":[{"ID":"query_YP_ITEM_FAB","Name":"query_YP_ITEM_FAB","Order":2,"Disabled":false,"IsEnrichment":false}]}</TableProperties>
-  </Node>
-  <Link from="2" to="3" partID="690" linkType="Database" pointsArr="349 163.545578 359 163.545578 473 189.545578 483 189.545578" fromNodePartID="0" fromNodeColumnName="CUSTOMER_ID" toNodePartID="433" toNodeColumnName="CUSTOMER_ID" toNodePopulationObjectName="query_YP_ITEM_FAB" />
 </Graph>
