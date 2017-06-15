@@ -5,11 +5,17 @@
   <LuLazyDataUpdate syncMethod="None" performEvery="1.00:00:00" />
   <Tables>
     <Table>YP_CUSTOMER_FAB</Table>
+    <Table>YP_PRODUCT_FAB</Table>
   </Tables>
   <TablesProperties>
     <TableProperties name="YP_CUSTOMER_FAB">
       <Populations>
         <Population id="query_YP_CUSTOMER_FAB" name="query_YP_CUSTOMER_FAB" order="1" disabled="false" enrichment="false" />
+      </Populations>
+    </TableProperties>
+    <TableProperties name="YP_PRODUCT_FAB">
+      <Populations>
+        <Population id="query_YP_PRODUCT_FAB" name="query_YP_PRODUCT_FAB" order="2" disabled="false" enrichment="false" />
       </Populations>
     </TableProperties>
   </TablesProperties>
@@ -27,7 +33,12 @@
     <Item active="false" name="TestRefTbl" />
   </ReferencesList>
   <Relations />
-  <DatabaseRelations />
+  <DatabaseRelations>
+    <Relation id="1363">
+      <From tableType="TableObject" table="YP_CUSTOMER_FAB" column="CUSTOMER_ID" columnId="tblCol_8aa325dee1ac47f284a404431958c480" />
+      <To tableType="TableObject" table="YP_PRODUCT_FAB" populationObjectName="query_YP_PRODUCT_FAB" column="CUSTOMER_ID" columnId="queryCol_0" />
+    </Relation>
+  </DatabaseRelations>
   <PreVCsSqlScript />
   <PostVCsSqlScript />
   <Indexes />
