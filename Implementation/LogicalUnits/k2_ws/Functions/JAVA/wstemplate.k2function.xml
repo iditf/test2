@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KFunction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.2.0.0">
+  <Name>wstemplate</Name>
+  <ID>JAVA.wstemplate</ID>
+  <Category>JAVA</Category>
+  <FunctionLevel>Project</FunctionLevel>
+  <FunctionType>WebService</FunctionType>
+  <FunctionType2>WebService</FunctionType2>
+  <RegisterAsLuDbFunction>false</RegisterAsLuDbFunction>
+  <SaveToDLUR>false</SaveToDLUR>
+  <ApiFunction>false</ApiFunction>
+  <DecisionFunction>false</DecisionFunction>
+  <RequiresLuReference>false</RequiresLuReference>
+  <Desc />
+  <Auther name="" id="" />
+  <Language>Java</Language>
+  <FunctionBody>DBExecute("fabric","get P7." + iid,null); 
+QueryExecutor queryExecutor = getQueryExecutor("fabric");
+DbTemplate template = new DbTemplate("/home/k2view/DbTemplateXmlFiles/tmp.xml", queryExecutor);
+return template.execute();
+
+</FunctionBody>
+  <IsSyntaxValid>true</IsSyntaxValid>
+  <IsRootFunction>false</IsRootFunction>
+  <InputParams>
+    <Input name="iid" id="fi.JAVA.wstemplate.0" index="0" dataType="String" />
+  </InputParams>
+  <OutputParams>
+    <Output name="result" id="fo.JAVA.wstemplate.0" index="0" dataType="Object" />
+  </OutputParams>
+</KFunction>
