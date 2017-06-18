@@ -34,7 +34,7 @@
   </ReferencesList>
   <Relations />
   <DatabaseRelations>
-    <Relation id="1363">
+    <Relation id="2293">
       <From tableType="TableObject" table="YP_CUSTOMER_FAB" column="CUSTOMER_ID" columnId="tblCol_8aa325dee1ac47f284a404431958c480" />
       <To tableType="TableObject" table="YP_PRODUCT_FAB" populationObjectName="query_YP_PRODUCT_FAB" column="CUSTOMER_ID" columnId="queryCol_0" />
     </Relation>
