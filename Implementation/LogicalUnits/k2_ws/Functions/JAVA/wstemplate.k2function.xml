@@ -14,7 +14,7 @@
   <Desc />
   <Auther name="" id="" />
   <Language>Java</Language>
-  <FunctionBody>DBExecute("fabric","get P_11." + iid,null); 
+  <FunctionBody>DBExecute("fabric","get P_1." + iid,null); 
 QueryExecutor queryExecutor = getQueryExecutor("fabric");
 DbTemplate template = new DbTemplate("/home/k2view/DbTemplateXmlFiles/tmp.xml", queryExecutor);
 return template.execute();
