@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<KFunction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.3.0.4">
+<KFunction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.2.0.0">
   <Name>wstemplate</Name>
   <ID>JAVA.wstemplate</ID>
   <Category>JAVA</Category>
@@ -14,7 +14,7 @@
   <Desc />
   <Auther name="" id="" />
   <Language>Java</Language>
-  <FunctionBody>DBExecute("fabric","get P_2." + iid,null); 
+  <FunctionBody>DBExecute("fabric","get P7." + iid,null); 
 QueryExecutor queryExecutor = getQueryExecutor("fabric");
 DbTemplate template = new DbTemplate("/home/k2view/DbTemplateXmlFiles/tmp.xml", queryExecutor);
 return template.execute();
