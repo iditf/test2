@@ -3,7 +3,7 @@
   <Name>YP_CUSTOMER_FAB</Name>
   <ID>tbl_YP_CUSTOMER_FAB</ID>
   <EntityId>tblCol_8aa325dee1ac47f284a404431958c480</EntityId>
-  <LazyDataUpdate syncMethod="Inherited" performEvery="1.00:00:00">
+  <LazyDataUpdate syncMethod="TimeInterval" performEvery="00:00:20">
     <TruncateBeforeSync>true</TruncateBeforeSync>
   </LazyDataUpdate>
   <Columns>
