@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TablePopulationObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>funGetRefUdacRecords</ID>
   <PopulationObjectName>funGetRefUdacRecords</PopulationObjectName>
   <TableName>FUN_REF_UDAC</TableName>
-  <ID>funGetRefUdacRecords</ID>
   <RootItemID>f_3</RootItemID>
   <Mode>Upsert</Mode>
+  <LazyDataUpdate syncMethod="Inherited" performEvery="1.00:00:00">
+    <TruncateBeforeSync>false</TruncateBeforeSync>
+  </LazyDataUpdate>
   <SimpleObject>false</SimpleObject>
   <InputArguments />
   <ItemsList>
-    <Item id="f_3" name="funGetRefUdacRecords" nodeOrder="0" module="Function" fileName="funGetRefUdacRecords.k2function.xml">
+    <Item id="f_3" name="funGetRefUdacRecords" nodeOrder="0" module="Function" mapObjectModule="Function" fileName="funGetRefUdacRecords.k2function.xml">
       <InputsList />
       <OutputsList>
         <Output id="fo_3.0" name="last_version_ind" />
@@ -16,7 +19,7 @@
         <Output id="fo_3.2" name="udac_desc" />
       </OutputsList>
     </Item>
-    <Item id="f_29" name="k2_concat5" nodeOrder="1" module="Function" fileName="k2_concat5.k2function.xml">
+    <Item id="f_29" name="k2_concat5" nodeOrder="1" module="Function" mapObjectModule="Function" fileName="k2_concat5.k2function.xml">
       <InputsList>
         <Input id="fi_29.0" name="i_str1" />
         <Input id="fi_29.1" name="i_str2" />
