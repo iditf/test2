@@ -11,6 +11,7 @@
     <Column name="udac_desc" id="tblCol_fee05d662c0d4884940aff493cd45061" index="2" datatype="Text" />
     <Column name="CONCAT" id="tblCol_87671f28ca274b40b789b55fb1f2f6e7" index="3" datatype="Text" />
     <Column name="srsrr" id="tblCol_39e4183c582140bab3f7132d309eccf3" index="4" datatype="integer" />
+    <Column name="n" id="tblCol_783edf91943642b0b4c701ff77a904a9" index="5" datatype="text" />
   </Columns>
   <IndexesList>
     <Index id="1" unique="true" columnsIdsList="tblCol_9795b0a7239448c48a502ece3749a801" />
