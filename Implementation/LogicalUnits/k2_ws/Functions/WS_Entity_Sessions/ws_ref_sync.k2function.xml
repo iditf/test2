@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<KFunction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<KFunction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.3.0.7">
   <Name>ws_ref_sync</Name>
   <ID>WS_Entity_Sessions.ws_ref_sync</ID>
   <Category>WS_Entity_Sessions</Category>
   <FunctionLevel>Project</FunctionLevel>
   <FunctionType>WebService</FunctionType>
+  <FunctionType2>WebService</FunctionType2>
   <RegisterAsLuDbFunction>false</RegisterAsLuDbFunction>
   <SaveToDLUR>false</SaveToDLUR>
   <ApiFunction>false</ApiFunction>
