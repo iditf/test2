@@ -1,21 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<VirtualDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.3.0.4">
+<VirtualDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="3.4.0.3">
   <Name>vdb</Name>
   <RootView>YP_CUSTOMER_FAB</RootView>
   <LuLazyDataUpdate syncMethod="None" performEvery="1.00:00:00" />
   <Tables>
     <Table>YP_CUSTOMER_FAB</Table>
-    <Table>YP_PRODUCT_FAB</Table>
   </Tables>
   <TablesProperties>
     <TableProperties name="YP_CUSTOMER_FAB">
       <Populations>
         <Population id="query_YP_CUSTOMER_FAB" name="query_YP_CUSTOMER_FAB" order="1" disabled="false" enrichment="false" />
-      </Populations>
-    </TableProperties>
-    <TableProperties name="YP_PRODUCT_FAB">
-      <Populations>
-        <Population id="query_YP_PRODUCT_FAB" name="query_YP_PRODUCT_FAB" order="2" disabled="false" enrichment="false" />
       </Populations>
     </TableProperties>
   </TablesProperties>
@@ -30,15 +24,9 @@
     <Item active="false" name="refTblyp_ref_udac_sereen" />
     <Item active="false" name="refyp_ref_udac_sereen" />
     <Item active="false" name="test_YP_REF_UDAC" />
-    <Item active="false" name="TestRefTbl" />
   </ReferencesList>
   <Relations />
-  <DatabaseRelations>
-    <Relation id="2293">
-      <From tableType="TableObject" table="YP_CUSTOMER_FAB" column="CUSTOMER_ID" columnId="tblCol_8aa325dee1ac47f284a404431958c480" />
-      <To tableType="TableObject" table="YP_PRODUCT_FAB" populationObjectName="query_YP_PRODUCT_FAB" column="CUSTOMER_ID" columnId="queryCol_0" />
-    </Relation>
-  </DatabaseRelations>
+  <DatabaseRelations />
   <PreVCsSqlScript />
   <PostVCsSqlScript />
   <Indexes />
